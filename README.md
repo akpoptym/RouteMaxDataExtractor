@@ -1,7 +1,8 @@
-# ADLS Gen2 Shipments CLT Export – Engineering Guide
+# ADLS Gen2 Shipments CLT Export - Guide
 
+**Created By:** Abhishek Prajapati
 **Version:** v1.0  
-**Team:** Data Science — Optym, Inc.  
+**Team:** DockAi — Optym, Inc.  
 **Reference script:** `adls_shipments_clt_export.py`
 
 ---
@@ -19,7 +20,6 @@
 - [Configuration Flags](#configuration-flags)
 - [Troubleshooting](#troubleshooting)
 - [Security & Ops Notes](#security--ops-notes)
-- [Extensibility Ideas](#extensibility-ideas)
 
 ---
 
@@ -188,5 +188,4 @@ python adls_shipments_clt_export.py \
 ## Security & Ops Notes
 - Never commit secrets; use env vars or a secrets manager.
 - Prefer **SAS** with least privilege and short expiry for ad‑hoc exports.
-- Rotate keys/SAS regularly; audit access. Enable Storage logs if required by policy.
 - For production pipelines, consider **Entra ID / Managed Identity** and writing outputs back to ADLS or a database.
