@@ -1,0 +1,10 @@
+{
+    "start_date": "2025-07-25",
+    "end_date": "2025-07-26",
+    "terminal": "001-RIC",
+    "pro_limit": 20,
+    "files_limit": 10,
+    "container": "shipmentsestesprod02",
+    "root": "",
+    "log_level": "INFO"
+} 
